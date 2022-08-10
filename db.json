@@ -1,0 +1,152 @@
+{
+    "shows": 
+    [
+      {
+        "id": 1,
+        "image":"arrow.jpg"
+      },
+      {
+        "id":2,
+        "image":"background.jpg"
+      },
+      {
+        "id": 3,
+        "image":"bones.jpg"
+      },
+      {
+        "id": 4,
+        "image":"castle.jpg"
+      },
+      {
+        "id": 5,
+        "image":"empire.jpg"
+      },
+      {
+        "id": 6,
+        "image":"friends.jpg"
+      },
+      {
+        "id": 7,
+        "image":"../img/shows/gameofthrones.jpg"
+      },
+      {
+        "id": 8,
+        "image":"../img/shows/goodgirls.jpg"
+      },
+      {
+        "id": 9,
+        "image":"../img/shows/gotham.jpg"
+      },
+      {
+        "id": 10,
+        "image":"../img/shows/riverdale.jpg"
+      },
+      {
+        "id": 11,
+        "image":"../img/shows/scorpion.jpg"
+      },
+      {
+        "id": 12,
+        "image":"../img/shows/smash.jpg"
+      },
+      {
+        "id": 13,
+        "image":"../img/shows/soprano.jpg"
+      },
+      {
+        "id": 14,
+        "image":"../img/shows/the100.jpg"
+      },
+      {
+        "id": 15,
+        "image":"../img/shows/vikings.jpg"
+      }
+    ],
+  
+    "movies": 
+    [
+      {
+        "id": 1,
+        "image":"adam.jpg"
+      },
+      {
+        "id": 2,
+        "image":"dark_knight.jpg"
+      },
+      {
+        "id": 3,
+        "image":"download.jpg"
+      },
+      {
+        "id": 4,
+        "image":"dragan.jpg"
+      },
+      {
+        "id": 5,
+        "image":"exists.jpg"
+      },
+      {
+        "id": 6,
+        "image":"furious.jpg"
+      },
+      {
+        "id": 7,
+        "image":"legend.jpg"
+      },
+      {
+        "id": 8,
+        "image":"lego.jpg"
+      },
+      {
+        "id": 9,
+        "image":"radhe.png"
+      },
+      {
+        "id": 10,
+        "image":"skyline.jpg"
+      },
+      {
+        "id": 11,
+        "image":"sonic.jpg"
+      },
+      {
+        "id": 12,
+        "image":"swirls.jpg"
+      },
+      {
+        "id": 13,
+        "image":"thenos.jpg"
+      },
+      {
+        "id": 14,
+        "image":"troy.jpg"
+      },
+      {
+        "id": 15,
+        "image":"warcraft.jpg"
+      }
+    ],
+  
+    "contents": {
+      "name": "typicode"
+    },
+  
+    "showsDetails": 
+    [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+  
+    "moviesDetails": 
+    [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ]
+  
+  }

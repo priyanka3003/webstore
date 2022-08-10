@@ -1,0 +1,215 @@
+{
+    "shows": 
+    [
+      {
+        "id": 1,
+        "image":"/img/shows/arrow.jpg"
+      },
+      {
+        "id":2,
+        "image":"/img/shows/background.jpg"
+      },
+      {
+        "id": 3,
+        "image":"/img/shows/bones.jpg"
+      },
+      {
+        "id": 4,
+        "image":"/img/shows/castle.jpg"
+      },
+      {
+        "id": 5,
+        "image":"/img/shows/empire.jpg"
+      },
+      {
+        "id": 6,
+        "image":"/img/shows/friends.jpg"
+      },
+      {
+        "id": 7,
+        "image":"/img/shows/gameofthrones.jpg"
+      },
+      {
+        "id": 8,
+        "image":"/img/shows/goodgirls.jpg"
+      },
+      {
+        "id": 9,
+        "image":"/img/shows/gotham.jpg"
+      },
+      {
+        "id": 10,
+        "image":"/img/shows/riverdale.jpg"
+      },
+      {
+        "id": 11,
+        "image":"/img/shows/scorpion.jpg"
+      },
+      {
+        "id": 12,
+        "image":"/img/shows/smash.jpg"
+      }
+    ],
+  
+    "movies": 
+    [
+      {
+        "id": 1,
+        "image":"/img/movies/adam.jpg"
+      },
+      {
+        "id": 2,
+        "image":"/img/movies/dark_knight.jpg"
+      },
+      {
+        "id": 3,
+        "image":"/img/movies/download.jpg"
+      },
+      {
+        "id": 4,
+        "image":"/img/movies/dragan.jpg"
+      },
+      {
+        "id": 5,
+        "image":"/img/movies/exists.jpg"
+      },
+      {
+        "id": 6,
+        "image":"/img/movies/furious.jpg"
+      },
+      {
+        "id": 7,
+        "image":"/img/movies/legend.jpg"
+      },
+      {
+        "id": 8,
+        "image":"/img/movies/lego.jpg"
+      },
+      {
+        "id": 9,
+        "image":"/img/movies/radhe.png"
+      },
+      {
+        "id": 10,
+        "image":"/img/movies/skyline.jpg"
+      },
+      {
+        "id": 11,
+        "image":"/img/movies/sonic.jpg"
+      },
+      {
+        "id": 12,
+        "image":"/img/movies/swirls.jpg"
+      }
+    ],
+
+    "recentMovies":
+    [
+      {
+        "id": 1,
+        "image":"/img/recentMovies/swirls.jpg"
+      },
+      {
+        "id": 2,
+        "image":"/img/recentMovies/warcraft.jpg"
+      },
+      {
+        "id": 3,
+        "image":"/img/recentMovies/troy.jpg"
+      },
+      {
+        "id": 4,
+        "image":"/img/recentMovies/gameofthrones.jpg"
+      },
+      {
+        "id": 5,
+        "image":"/img/recentMovies/gotham.jpg"
+      },
+      {
+        "id": 6,
+        "image":"/img/recentMovies/exists.jpg"
+      },
+      {
+        "id": 7,
+        "image":"/img/recentMovies/scorpion.jpg"
+      },
+      {
+        "id": 8,
+        "image":"/img/recentMovies/lego.jpg"
+      }
+    ],
+  
+    "showsDetails": 
+    [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+  
+    "moviesDetails": 
+    [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+
+    "featuredMovies": 
+    [
+      {
+        "id": 1,
+        "image":"/img/featuredMovies/dragan.jpg"
+      },
+      {
+        "id": 2,
+        "image":"/img/featuredMovies/legend.jpg"
+      },
+      {
+        "id": 3,
+        "image":"/img/featuredMovies/dark_knight.jpg"
+      },
+      {
+        "id": 4,
+        "image":"/img/featuredMovies/radhe.png"
+      },
+      {
+        "id": 5,
+        "image":"/img/featuredMovies/sonic.jpg"
+      },
+      {
+        "id": 6,
+        "image":"/img/featuredMovies/furious.jpg"
+      }
+    ],
+
+    "featuredShows": 
+    [
+      {
+        "id": 1,
+        "image":"/img/featuredShows/bones.jpg"
+      },
+      {
+        "id": 2,
+        "image":"/img/featuredShows/empire.jpg"
+      },
+      {
+        "id": 3,
+        "image":"/img/featuredShows/riverdale.jpg"
+      },
+      {
+        "id": 4,
+        "image":"/img/featuredShows/the100.jpg"
+      },
+      {
+        "id": 5,
+        "image":"/img/featuredShows/goodgirls.jpg"
+      },
+      {
+        "id": 6,
+        "image":"/img/featuredShows/vikings.jpg"
+      }
+    ]
+  }
