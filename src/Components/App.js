@@ -23,6 +23,7 @@ import FeaturedShowContext from "../context/FeaturedShowContext";
 import UserContext from "../context/UserContext";
 import ActiveContext from "../context/activeContext";
 import RecentMovieContext from "../context/RecentMovieContext";
+import useFetch from './useFetch';
 
 
 
