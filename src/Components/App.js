@@ -26,160 +26,215 @@ import RecentMovieContext from "../context/RecentMovieContext";
 
 
 
+// function App() {
+//   const data = require("../db.json");
+//   //const data = Data.movies
+
+//   const [movies, setMovies] = useState([]);
+
+//   useEffect(() => {
+
+//     fetch(data)
+//     .then((res)=>{
+//       return data.movies
+//     })
+//     .then((json) => {
+//       setMovies(json);
+//     })
+//     .catch((err)=>{
+//       console.log(`Error ${err}`);
+//     });
+
+//   },[]);
+
+//   const [featuredMovies, setFeaturedMovies] = useState([]);
+//   useEffect(() => {
+
+//     fetch(data)
+//     .then((res)=>{
+//       return data.featuredMovies
+//     })
+//     .then((json) => {
+//       setFeaturedMovies(json);
+//     })
+//     .catch((err)=>{
+//       console.log(`Error ${err}`);
+//     });
+
+//   },[]);
+
+//   const [featuredShows, setFeaturedShows] = useState([]);
+//   useEffect(() => {
+
+//     fetch(data)
+//     .then((res)=>{
+//       return data.featuredShows
+//     })
+//     .then((json) => {
+//       setFeaturedShows(json);
+//     })
+//     .catch((err)=>{
+//       console.log(`Error ${err}`);
+//     });
+
+//   },[]);
+
+//   const [recentMovies, setRecentMovies] = useState([]);
+//   useEffect(() => {
+
+//     fetch(data)
+//     .then((res)=>{
+//       return data.recentMovies
+//     })
+//     .then((json) => {
+//       setRecentMovies(json);
+//     })
+//     .catch((err)=>{
+//       console.log(`Error ${err}`);
+//     });
+
+//   },[]);
+
+//   const [shows, setShows] = useState([]);
+
+//   useEffect(() => {
+
+//     fetch(data)
+//     .then((res)=>{
+//       return data.shows
+//     })
+//     .then((json) => {
+//       setShows(json);
+//     })
+//     .catch((err)=>{
+//       console.log(`Error ${err}`);
+//     });
+
+//   },[]);
+
+//   const [allUsers, setAllUsers] = useState([]);
+
+//     useEffect(() => {
+//         fetch(data)
+//             .then(() => {
+//                 return data.allUsers;
+//             })
+//             .then((json) => {
+//                 setAllUsers(json);
+//             })
+//             .catch((err) => {
+//                 console.log(`Error ${err}`);
+//             });
+//     }, []);
+
+//     const [activeUser, setActiveUser] = useState({
+//       id: "",
+//       Username: "",
+//       FirstName: "",
+//       LastName: "",
+//       Email: "",
+//   });
+
+//   return (
+//     <div className="">
+//        <UserContext.Provider value={{ allUsers }}>
+//           <ActiveContext.Provider value={{ activeUser, setActiveUser }}>
+//             <Router>
+//               <div>
+//                 <Switch>
+//                   <movieContext.Provider value={{movies, setMovies}}>
+//                   <ShowsContext.Provider value={{shows, setShows}}>
+//                   <FeaturedMovieContext.Provider value={{featuredMovies, setFeaturedMovies}}>
+//                   <FeaturedShowContext.Provider value={{featuredShows, setFeaturedShows}}>
+//                   <RecentMovieContext.Provider value={{recentMovies, setRecentMovies}}>
+//                     <Route exact path="/">
+//                       <HomePage />
+//                     </Route>
+//                     <Route path="/recent">
+//                       <RecentlyAdded />
+//                     </Route>
+//                     <Route path="/showings">
+//                       <ShowPage />
+//                     </Route>
+//                     <Route path="/listings">
+//                       <ListingPage />
+//                     </Route>
+//                     <Route path="/login">
+//                       <Login />
+//                     </Route>
+//                     <Route path="/register">
+//                       <Register />
+//                     </Route> 
+//                   </RecentMovieContext.Provider>
+//                   </FeaturedShowContext.Provider>
+//                   </FeaturedMovieContext.Provider>
+//                   </ShowsContext.Provider>
+//                   </movieContext.Provider>
+
+//                 </Switch>
+            
+//               </div>
+//             </Router>
+//           </ActiveContext.Provider>
+//         </UserContext.Provider>
+      
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
 function App() {
-  const data = require("../db.json");
-  //const data = Data.movies
-
-  const [movies, setMovies] = useState([]);
-
-  useEffect(() => {
-
-    fetch(data)
-    .then((res)=>{
-      return data.movies
-    })
-    .then((json) => {
-      setMovies(json);
-    })
-    .catch((err)=>{
-      console.log(`Error ${err}`);
-    });
-
-  },[]);
-
-  const [featuredMovies, setFeaturedMovies] = useState([]);
-  useEffect(() => {
-
-    fetch(data)
-    .then((res)=>{
-      return data.featuredMovies
-    })
-    .then((json) => {
-      setFeaturedMovies(json);
-    })
-    .catch((err)=>{
-      console.log(`Error ${err}`);
-    });
-
-  },[]);
-
-  const [featuredShows, setFeaturedShows] = useState([]);
-  useEffect(() => {
-
-    fetch(data)
-    .then((res)=>{
-      return data.featuredShows
-    })
-    .then((json) => {
-      setFeaturedShows(json);
-    })
-    .catch((err)=>{
-      console.log(`Error ${err}`);
-    });
-
-  },[]);
-
-  const [recentMovies, setRecentMovies] = useState([]);
-  useEffect(() => {
-
-    fetch(data)
-    .then((res)=>{
-      return data.recentMovies
-    })
-    .then((json) => {
-      setRecentMovies(json);
-    })
-    .catch((err)=>{
-      console.log(`Error ${err}`);
-    });
-
-  },[]);
-
-  const [shows, setShows] = useState([]);
-
-  useEffect(() => {
-
-    fetch(data)
-    .then((res)=>{
-      return data.shows
-    })
-    .then((json) => {
-      setShows(json);
-    })
-    .catch((err)=>{
-      console.log(`Error ${err}`);
-    });
-
-  },[]);
-
-  const [allUsers, setAllUsers] = useState([]);
-
-    useEffect(() => {
-        fetch(data)
-            .then(() => {
-                return data.allUsers;
-            })
-            .then((json) => {
-                setAllUsers(json);
-            })
-            .catch((err) => {
-                console.log(`Error ${err}`);
-            });
-    }, []);
-
-    const [activeUser, setActiveUser] = useState({
-      id: "",
-      Username: "",
-      FirstName: "",
-      LastName: "",
-      Email: "",
-  });
+  const { data: movies, movieIsPending, movieError } = useFetch(
+    'https://mybackendweb.herokuapp.com/movies',
+  )
+  const { data: tvs, tvsIsPending, tvsError } = useFetch(
+    'https://mybackendweb.herokuapp.com/tvs',
+  )
 
   return (
-    <div className="">
-       <UserContext.Provider value={{ allUsers }}>
-          <ActiveContext.Provider value={{ activeUser, setActiveUser }}>
-            <Router>
-              <div>
-                <Switch>
-                  <movieContext.Provider value={{movies, setMovies}}>
-                  <ShowsContext.Provider value={{shows, setShows}}>
-                  <FeaturedMovieContext.Provider value={{featuredMovies, setFeaturedMovies}}>
-                  <FeaturedShowContext.Provider value={{featuredShows, setFeaturedShows}}>
-                  <RecentMovieContext.Provider value={{recentMovies, setRecentMovies}}>
-                    <Route exact path="/">
-                      <HomePage />
-                    </Route>
-                    <Route path="/recent">
-                      <RecentlyAdded />
-                    </Route>
-                    <Route path="/showings">
-                      <ShowPage />
-                    </Route>
-                    <Route path="/listings">
-                      <ListingPage />
-                    </Route>
-                    <Route path="/login">
-                      <Login />
-                    </Route>
-                    <Route path="/register">
-                      <Register />
-                    </Route> 
-                  </RecentMovieContext.Provider>
-                  </FeaturedShowContext.Provider>
-                  </FeaturedMovieContext.Provider>
-                  </ShowsContext.Provider>
-                  </movieContext.Provider>
-
-                </Switch>
-            
-              </div>
-            </Router>
-          </ActiveContext.Provider>
-        </UserContext.Provider>
-      
+    <div className="App bg-secondary">
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <Home
+              movies={movies}
+              movieIsPending={movieIsPending}
+              movieError={movieError}
+              tvs={tvs}
+              tvsIsPending={tvsIsPending}
+              tvsError={tvsError}
+            />
+          </Route>
+          <Route exact path="/signup">
+            <Signup />
+          </Route>
+          <Route exact path="/login">
+            <Login />
+          </Route>
+          <Route exact path="/movies">
+            <Movies
+              movies={movies}
+              movieIsPending={movieIsPending}
+              movieError={movieError}
+            />
+          </Route>
+          <Route exact path="/tvs">
+            <Tvs tvs={tvs} tvsIsPending={tvsIsPending} tvsError={tvsError} />
+          </Route>
+          <Route exact path="/detail/:type/:id">
+            <Detail movies={movies} tvs={tvs} />
+          </Route>
+          <Route exact path="/dashboard">
+            <Dashboard />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
     </div>
-  );
+  )
 }
 
 export default App;
